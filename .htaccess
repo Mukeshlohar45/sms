@@ -1,0 +1,4 @@
+RewriteEngine On
+ErrorDocument 404 http://localhost/student_management_system/Views/Errors/404.php
+
+

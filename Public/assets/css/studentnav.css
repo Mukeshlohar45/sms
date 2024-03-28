@@ -1,0 +1,84 @@
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 10px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .login-container {
+  float: right;
+}
+.profile{
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    margin-left: 63%;
+}
+.logoo{
+    float: left;
+    margin: 10px;
+}
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width:120px;
+}
+.logoutbtn{
+    float: right;
+    padding: 2px 5px;
+    border: none;
+    background-color: rgb(255, 52, 52);
+    color: blue;
+    border-radius: 11px;
+    margin: 10px;
+}
+.logoutbtn:hover{
+    color: red;
+    border: none;
+}
+
+
+@media screen and (max-width: 600px) {
+  .topnav .login-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .login-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}

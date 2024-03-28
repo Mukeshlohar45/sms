@@ -1,0 +1,19 @@
+
+body{
+    background-color: #5eb2b3;
+}
+.form{
+    background-color: #fff;
+
+}
+h1{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+.form-control{
+    margin: 10px;
+}
+.error{
+    color: red;
+}
